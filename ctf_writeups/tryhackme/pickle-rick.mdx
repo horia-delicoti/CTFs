@@ -23,7 +23,7 @@ ping $IP
 64 bytes from 10.10.94.57: icmp_seq=1 ttl=63 time=18.233 ms
 ```
 
-Let's use [nmap](/docs/networking/nmap) to scan the target and gather some information about the services running on it.
+Let's use <WikiLink path="/networking/nmap">nmap</WikiLink> to scan the target and gather some information about the services running on it.
 
 ```sh
 nmap -sC -sV -oN nmap/initial $IP
