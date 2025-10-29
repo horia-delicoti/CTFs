@@ -45,6 +45,6 @@ jobs:
             - 🧱 Built with Docusaurus
             - 🌐 Automatically deployed to GitHub Pages
 
-            **Full Changelog**: https://github.com/horia-delicoti/wiki/commits/${{ env.TAG_VERSION }}
+            **Full Changelog**: https://github.com/horia-delicoti/ctfs/commits/${{ env.TAG_VERSION }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
