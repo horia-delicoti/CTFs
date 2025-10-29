@@ -1,0 +1,50 @@
+# Create a GitHub Release when a new tag is pushed
+
+name: 🚚 Release
+
+on:
+  # 1️⃣ Trigger on any tag push
+  push:
+    tags:
+      - '*'  # e.g., v1.0.0, v2.3.1
+
+  # 2️⃣ Trigger when the "🏷️ Tag" workflow completes
+  workflow_run:
+    workflows: ["🏷️ Tag"]
+    types:
+      - completed
+
+jobs:
+  release:
+    name: 🧾 Create Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Needed to create the release
+
+    steps:
+      - name: 📦 Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: 🏷️ Determine Tag Version
+        run: |
+          git fetch --tags
+          TAG_VERSION=$(git describe --tags --abbrev=0)
+          echo "TAG_VERSION=$TAG_VERSION" >> $GITHUB_ENV
+          echo "Using tag: $TAG_VERSION"
+
+      - name: 🧾 Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.TAG_VERSION }}
+          name: "🚀 ${{ env.TAG_VERSION }}"
+          body: |
+            ## Changes in ${{ env.TAG_VERSION }}
+            - ✨ New improvements and fixes
+            - 🧱 Built with Docusaurus
+            - 🌐 Automatically deployed to GitHub Pages
+
+            **Full Changelog**: https://github.com/horia-delicoti/wiki/commits/${{ env.TAG_VERSION }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
