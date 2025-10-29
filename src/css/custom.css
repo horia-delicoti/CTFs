@@ -1,0 +1,46 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Custom blue color scheme */
+:root {
+  --ifm-color-primary: #2451a6;           /* Dark blue for light mode */
+  --ifm-color-primary-dark: #1e4287;
+  --ifm-color-primary-darker: #19376d;
+  --ifm-color-primary-darkest: #142b56;
+  --ifm-color-primary-light: #2e62c2;
+  --ifm-color-primary-lighter: #3a7be0;
+  --ifm-color-primary-lightest: #5a97f2;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #5a97f2;           /* Lighter blue for dark mode */
+  --ifm-color-primary-dark: #3a7be0;
+  --ifm-color-primary-darker: #2e62c2;
+  --ifm-color-primary-darkest: #2451a6;
+  --ifm-color-primary-light: #7bb6ff;
+  --ifm-color-primary-lighter: #a3cfff;
+  --ifm-color-primary-lightest: #d0e6ff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Make the navbar logo round */
+.navbar__logo img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Custom color for Docusaurus link in footer */
+.footer__copyright a {
+  color: #5a97f2 !important; /* Light blue that contrasts with dark footer */
+  text-decoration: none;
+}
+
+.footer__copyright a:hover {
+  color: #7bb6ff !important; /* Lighter blue on hover */
+  text-decoration: underline;
+}
