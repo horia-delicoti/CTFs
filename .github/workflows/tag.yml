@@ -64,6 +64,24 @@ jobs:
             exit 1
           fi
 
+      - name: 🔍 Check Package.json Version Match
+        id: check_package_version
+        run: |
+          NEW_TAG=${{ env.NEW_TAG }}
+          PACKAGE_VERSION=$(node -p "require('./package.json').version")
+          echo "Package.json version: $PACKAGE_VERSION"
+          echo "Git tag version: $NEW_TAG"
+          
+          if [ "$PACKAGE_VERSION" != "$NEW_TAG" ]; then
+            echo "::error::Version mismatch!"
+            echo "::error::Package.json version ($PACKAGE_VERSION) does not match the tag ($NEW_TAG)"
+            echo "::error::Please update package.json version to $NEW_TAG before creating the tag:"
+            echo "::error::  npm version $NEW_TAG --no-git-tag-version"
+            exit 1
+          else
+            echo "✅ Versions match! Package.json version ($PACKAGE_VERSION) matches tag ($NEW_TAG)"
+          fi
+
       - name: 🔑 Set Up Git User
         run: |
           git config user.name "horia-delicoit"
