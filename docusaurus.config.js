@@ -28,6 +28,7 @@ const config = {
   // Custom fields for cross-project references
   customFields: {
     wikiUrl: 'https://wiki.horia.delicoti.com',
+    version: require('./package.json').version,
   },
 
   // GitHub pages deployment config.
@@ -108,7 +109,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Horia Delicoti • Powered by <a href="https://docusaurus.io/" target="_blank">Docusaurus</a>`,
+        copyright: `Copyright © ${new Date().getFullYear()} Horia Delicoti • v${require('./package.json').version} • Powered by <a href="https://docusaurus.io/" target="_blank">Docusaurus</a>`,
       },
       prism: {
         theme: prismThemes.github,

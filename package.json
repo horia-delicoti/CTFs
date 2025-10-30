@@ -1,6 +1,6 @@
 {
-  "name": "ct-fs",
-  "version": "0.0.0",
+  "name": "ctfs",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
