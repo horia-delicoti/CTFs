@@ -6,7 +6,7 @@
 
 <h1 align="center">🥷 CTF Handbook</h1>
 <p align="center">
-<a href="https://github.com/horia-delicoti/ctfs"><img src="./images/ctf_logo.png" width="100"/></a><br>
+<a href="https://github.com/horia-delicoti/ctfs"><img src="./images/ctf_logo.jpeg" width="100"/></a><br>
 <i>This repository contains the source code for my personal CTF handbook and Writeups.</i>
 <br />
 <i>A website built with <a href="https://docusaurus.io/">Docusaurus</a></i>
@@ -188,7 +188,25 @@ Contributions are welcome! Please read the [CONTRIBUTING](/CONTRIBUTING.md) guid
 
 ## 🫡 Acknowledgements
 
-- 
+- [Awesome CTF CheatSheet by Saikiran Uppu](https://github.com/uppusaikiran/awesome-ctf-cheatsheet)
+- [Awesome CTF by Amanpreet Singh](https://github.com/apsdehal/awesome-ctf)
+- [CTF 101 Handbook](https://ctf101.org/)
+- [CTF Guide by Xapax](https://xapax.github.io/security/#)
+- [CTF Notes by D00mfist](https://d00mfist.gitbooks.io/ctf/content/)
+- [CTF Katana by JohnHammond](https://github.com/JohnHammond/ctf-katana)
+- [CTF Guide by TwinSecurity](https://twin-security.com/ctf-cheatsheet/)
+- [Hacker rest by zweilosec](https://zweilosec.gitbook.io/hackers-rest)
+- [CTF Guid by Caleb Shortt](https://calebshortt.com/2020/11/30/a-quick-ctf-methodology/)
+- [CTF Guide by Ben Heater](https://benheater.com/my-ctf-methodology/)
+- [Web Pentesting Checklist by HarshinSecurity](https://github.com/harshinsecurity/web-pentesting-checklist)
+- [Career CTF guide](https://trailofbits.github.io/ctf/intro/careers.html)
+- [CTF Wiki](https://ctf-wiki.org/en/)
+- [CTF by Raj](https://github.com/RajChowdhury240/CTF-CheatSheet)
+- [CTF by Adam](https://github.com/Adamkadaban/CTFs)
+- [Learn Binary Exploitation](https://github.com/Adamkadaban/LearnPwn)
+- [CTF Cheat Sheet by Dvd848](https://dvd848.github.io/CTFs/CheatSheet.html)
+- [Cryptography for CTF](https://medium.com/@anandrishav2228/cryptography-great-cheat-sheet-for-ctfs-d2ada754b319)
+- [TryHackMe and HackTheBox by JesusGavancho](https://github.com/jesusgavancho/TryHackMe_and_HackTheBox) 
 
 ## 📚 Resources
 
