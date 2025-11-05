@@ -217,6 +217,16 @@ Contributions are welcome! Please read the [CONTRIBUTING](/CONTRIBUTING.md) guid
 - [npm][npm] - A package manager for JavaScript.
 - [Shields.io][shields] - A service that provides a simple way to create consistent and customizable badges for open source projects.
 
+### 🔧 References
+
+- [Cybersecurity Wiki](https://horia.delicoti.com/docs/security/cybersecurity/)
+- [Awesome Hacking](https://github.com/Hack-with-Github/Awesome-Hacking)
+- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
+- [MITRE ATT&CK](https://attack.mitre.org/)
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+- [TryHackMe](https://tryhackme.com/)
+- [Hack The Box](https://www.hackthebox.com/)
+
 ## ⚖️ License
 
 This project is licensed under the [MIT][mit] License. See the [LICENSE](/LICENSE) file for details.
