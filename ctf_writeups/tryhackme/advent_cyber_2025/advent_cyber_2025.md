@@ -6,7 +6,7 @@ title: Advent of Cyber 2025 🎄
 
 This is a walkthrough for the TryHackMe room [Advent of Cyber 2025 Prep Track](https://tryhackme.com/room/adventofcyberpreptrack). This room is part of the Advent of Cyber event, to warm up your cybersecurity skills.
 
-### Let's Warm Up 🔥
+### The Story 🎅
 
 > The snow ❄️ has started falling in Wareville, home of The Best Festival Company (TBFC). The team is preparing for SOCMAS, the annual cyber celebration, but something’s not right. Systems are glitching, passwords are failing, and McSkidy suspects something is afoot. This name keeps coming up: King Malhare. What could it mean?
 
