@@ -3,10 +3,15 @@ title: Phishing - Merry Clickmas 🎅
 sidebar_position: 2
 ---
 
-<div style={{display: 'flex', alignItems: 'center', gap: '15px'}}>
-  <img src="/img/ctf_writeups/tryhackme/advent_cyber_2025/phishing_merry_clickmas/phishing_bell.png" alt="phishing bell" width="60"/>
+This is a walkthrough for the TryHackMe room [Phishing - Merry Clickmas](https://tryhackme.com/room/phishing-aoc2025-h2tkye9fzU). This room focuses on:
+
+<div style={{display: 'flex', alignItems: 'center'}}>
+  <img src="/img/ctf_writeups/tryhackme/advent_cyber_2025/phishing_merry_clickmas/phishing_bell.png" alt="phishing bell" width="80"/>
   <div>
-    This is a walkthrough for the TryHackMe room [Phishing - Merry Clickmas](https://tryhackme.com/room/phishing-aoc2025-h2tkye9fzU). This room focuses on **understanding what social engineering is**, **learn the types of phishing**, **explore how red teams create fake login pages** and **use the Social-Engineer Toolkit to send a phishing email**. Let's use the [Social-Engineer Toolkit](https://github.com/trustedsec/social-engineer-toolkit) to send phishing emails.
+    - understanding what social engineering is
+    - learn the types of phishing
+    - explore how red teams create fake login pages
+    - use the Social-Engineer Toolkit to send a phishing email
   </div>
 </div>
 
