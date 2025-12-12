@@ -3,10 +3,14 @@ title: Linux CLI - Shell Bells 🔔
 sidebar_position: 1
 ---
 
-<div style={{display: 'flex', alignItems: 'center', gap: '15px'}}>
-  <img src="/img/ctf_writeups/tryhackme/advent_cyber_2025/linux_cli_shell_bells/shell_bells.png" alt="shell bells" width="60"/>
+This is a walkthrough for the TryHackMe room [Linux CLI - Shell Bells](https://tryhackme.com/room/linuxcli-aoc2025-o1fpqkvxti). This room focuses on:
+
+<div style={{display: 'flex', alignItems: 'center'}}>
+  <img src="/img/ctf_writeups/tryhackme/advent_cyber_2025/linux_cli_shell_bells/shell_bells.png" alt="shell bells" width="80"/>
   <div>
-    This is a walkthrough for the TryHackMe room [Linux CLI - Shell Bells](https://tryhackme.com/room/linuxcli-aoc2025-o1fpqkvxti). Let's explore the Linux command-line interface and use it to unveil Christmas mysteries.
+    - learn the basics of the Linux command-line interface (CLI)
+    - explore its use for personal objectives and IT administration
+    - apply your knowledge to unveil the Christmas mysteries
   </div>
 </div>
 
