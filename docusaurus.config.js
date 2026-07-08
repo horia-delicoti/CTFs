@@ -38,6 +38,15 @@ const config = {
 
   onBrokenLinks: 'throw',
 
+  // Umami analytics
+  scripts: [
+    {
+      src: 'https://umami.delicoti.com/script.js',
+      defer: true,
+      'data-website-id': 'c690b9ae-6efb-44de-9a65-5debe0de1034',
+    },
+  ],
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
